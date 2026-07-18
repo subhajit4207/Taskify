@@ -1,17 +1,37 @@
-# my_app
+# Taskify
 
-A new Flutter project.
+Taskify is a Flutter app that automatically extracts tasks, reminders, assignments, exams, meetings, and actionable items from WhatsApp and other notifications.
 
-## Getting Started
+## Features
+- Reads incoming notifications
+- Detects tasks using keyword/NLP processing
+- Creates a centralized task list
+- Helps users avoid missing important work or college deadlines
 
-This project is a starting point for a Flutter application.
+## Use Cases
+- Assignment reminders
+- Exam schedules
+- Project deadlines
+- Work messages
+- Personal reminders
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- Dart
+- Notification Listener
+- Local Storage
+- NLP/Keyword Extraction
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Future Improvements
+- AI-based task extraction
+- Calendar integration
+- Smart priority detection
+- Cross-device sync
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+```bash
+git clone https://github.com/subhajit4207/Taskify.git
+cd Taskify
+flutter pub get
+flutter run
